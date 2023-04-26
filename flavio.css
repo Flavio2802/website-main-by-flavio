@@ -1,0 +1,60 @@
+/* Example CSS style for a website */
+
+/* Redefinir margem e preenchimento padrão */
+body, h1, h2, p {
+    margin: 0.5;
+    padding: 0;
+}
+
+/* Cabeçalho de estilo */
+header {
+    background-color: #40BFBF;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: square;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 200px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+/* Conteúdo principal do estilo*/
+main {
+    padding: 30px;
+}
+
+/* Rodapé de estilo */
+footer {
+    background-color: #40BFBF;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    text-align: center;
+}
+
+element {
+    
+   
+    background-color: #40BFBF; /* Hexadecimal Representação */
+        
+       
+    /* ou */
+        
+       
+    background-color: rgb(64, 191, 191); /* RGB Representação */
+        
+       
+    /* ou */
+        
+       
+    background-color: hsl(180, 50%, 50%); /* HSL Representação */
+    }
